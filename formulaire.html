@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Votre panier</title>
+</head>
+<body>
+	<form method="post" action="form2.html">
+		<p>
+		  <label for="nom">
+		  	Entrer un nom d'utilisateur:
+		  </label>
+		  <br><br>
+		   <input type="text" name="nm" id="nom" placeholder="XXXX XXX" required>
+		   <br><br>
+		   <p>Vous etes :</p>
+		     <input type="radio" name="sex" id="fem" value="femme">
+		      <label for="fem">Femme</label><br /> 
+		     <input type="radio" name="sex" id="hom" value="homme">
+		      <label for="hom">Homme</label><br/>
+             <br><br>
+		  <label for="date de naissance">
+		  	Votre date de naissance:
+		  </label>
+		  <br><br>
+		  	<input type="date" name="ddn" id="date de naissance"required> 
+		  <br><br>
+		  <label for="mail">
+		  	Entrer votre adresse mail: 
+		   </label>
+		   <br><br>
+		   <input type="email" name="email" id="mail" placeholder="XXXXX@XXX" required>
+		   <br><br>
+		   <label for="wilaya">
+		    Dans quel wilaya habitez-vous ?
+		   </label>
+		   <br><br>
+             <select name="wilaya" id="wilaya" required> 
+              <option value="alger">Alger</option> 
+              <option value="oran">Oran</option> 
+              <option value="skikda">Skikda</option> 
+              <option value="annaba">Annaba</option>
+              <option value="constantine">Constantine</option>
+              <option value="jijel">Jijel</option>
+              <option value="batna">Batna</option>
+              <option value="setif">Setif</option>
+              <option value="mostaganem">Mostaganem</option>
+              <option value="blida">Blida</option>
+              <option value="tipaza">Tipaza</option>
+              <option value="mila">Mila</option>
+              <option value="bouira">Bouira</option>
+              <option value="ghilizan">Ghilizan</option>
+              <option value="adrar">Adrar</option>
+              <option value="laghouat">Laghouat</option>
+
+             </select> 
+           <br><br>
+           <label for="mot de passe">
+		  	Entrer un mot de passe fort :
+		  </label>
+		  <br><br>
+		   <input type="Password" name="mdp" id="mot de passe"  placeholder="........"required> 
+		   <br><br>
+          <input type="submit" value="suivant">
+	    </p>
+	</form>
+
+</body>
+</html>
